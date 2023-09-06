@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply bg-slate-200 font-[rubik] text-gray-700;
+}
+
+section {
+  @apply mx-2 sm:mx-10 md:mx-20 lg:mx-44;
+}
+
+h2 {
+  @apply font-medium;
+}
+input,
+select {
+  @apply shadow outline-none px-2 py-1 rounded;
+}
+
+button {
+  @apply shadow-md bg-btn-blue hover:bg-blue-900 soft-transition text-white px-3 py-1 rounded;
+}
+
+.soft-transition {
+  @apply transition ease-in-out duration-150 hover:scale-110;
+}
+
+.page-title {
+  @apply font-semibold text-center text-3xl py-8 text-gray-600;
+}
+
+.page-content {
+  @apply text-black text-justify p-5 shadow rounded-sm bg-primary-white bg-opacity-80;
+}
+
+.alert-box {
+  @apply flex shadow opacity-70 space-x-4 px-4 justify-center mt-6 w-52 rounded border items-center bg-red-200 border-red-300;
+}
