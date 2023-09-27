@@ -22,6 +22,16 @@ export default function Home() {
           </a>
         </div>
         <div className="flex justify-center">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://docs.google.com/document/d/1thuQNjcIXazideerfWrXIRNGtqU79GbjcgT6kwHyyQg/edit?usp=sharing"
+            className="cursor-pointer underline mx-1 md:mx-6 mt-4 md:mb-6 items-center px-4 text-slate-700 rounded font-semibold hover:text-slate-400 ease-in duration-200 "
+          >
+            Política de Segurança
+          </a>
+        </div>
+        <div className="flex justify-center">
           <button
             className=" mx-1 md:mx-6 mt-4 md:mb-6 items-center px-4 py-2 bg-teal-500 text-slate-700 rounded font-semibold hover:bg-teal-700 hover:text-white ease-in duration-200 "
             onClick={toggleTermos}
